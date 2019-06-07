@@ -34,8 +34,9 @@ education:
 #  - course: Vocational Diploma
 #   institution: Augsburg School of Advanced Occupational Study
 #   year: 2017 - 2018
-# - course: Merchant for Wholesale and Foreign Trade
-#   year: 2014 - 2017
+  - course: Qualified Merchant for Wholesale and Foreign Trade
+    institution: specialized in Housing Technologies
+    year: 2017
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
