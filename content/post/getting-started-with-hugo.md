@@ -173,7 +173,7 @@ There's still some work needed in order to publicate the blog into the wild
 internet and of course we still have to personalize the blog with posts and
 information about the author before we deploy it online.
 For these further steps I can recommend reading the docs online as Hugo is
-well documeneted and actively developed by a nice community.
+well documented and actively developed by a nice community.
 
 
 ## References {#references}
