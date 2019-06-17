@@ -21,7 +21,7 @@ So let's give it a go :)
 Hugo is commonly included by package managers - which I personally prefer
 to use - but can also be installed via the repository.
 
-Assumed you have a working [Go](https://golang.org) installation you can simply run following
+Assuming you have a working [Go](https://golang.org) installation you can simply run following
 commands and let the magic happen:
 
 <a id="code-snippet--hugo-installation"></a>
@@ -83,7 +83,7 @@ add a Theme and some content.
 
 There's a wide variety of free and open source [themes](https://themes.gohugo.io) which can be used
 for your blog. For this example I've choosen a clean and simple theme
-called **finite** from the Hugo themes showcase.
+called [finite](https://themes.gohugo.io/hugo-finite/) from the Hugo themes showcase.
 
 Themes are added as git submodule. Head into your newly created folder and
 hit following:
@@ -98,7 +98,7 @@ git submodule add https://github.com/lambdafu/hugo-finite themes/finite
 Initialized empty Git repository in /home/penguwin/Nextcloud/projects/pengublog/.git/
 ```
 
-You'll now be able to find the designs in the '/themes' folder. To
+You'll now be able to find the designs in the `/themes` folder. To
 actually use it with Hugo you still need to declare it in your
 **config.toml** file.
 
@@ -185,6 +185,23 @@ well documented and actively developed by a nice community.
 -   [Hugo Themes Collection](https://themes.gohugo.io/)
 
 
+### Hugo environment {#hugo-environment}
+
+This is how my hugo environment looks like after installation:
+
+<a id="code-snippet--hugo-environment"></a>
+```shell
+hugo env
+```
+
+```text
+Hugo Static Site Generator v0.55.6/extended linux/amd64 BuildDate: unknown
+GOOS="linux"
+GOARCH="amd64"
+GOVERSION="go1.12.4"
+```
+
+
 ### Hugo help message {#hugo-help-message}
 
 Here's the help text for hugo:
@@ -263,21 +280,4 @@ Additional help topics:
   hugo check   Contains some verification checks
 
 Use "hugo [command] --help" for more information about a command.
-```
-
-
-### Hugo environment {#hugo-environment}
-
-This is how my hugo environment looks like after installation:
-
-<a id="code-snippet--hugo-environment"></a>
-```shell
-hugo env
-```
-
-```text
-Hugo Static Site Generator v0.55.6/extended linux/amd64 BuildDate: unknown
-GOOS="linux"
-GOARCH="amd64"
-GOVERSION="go1.12.4"
 ```
