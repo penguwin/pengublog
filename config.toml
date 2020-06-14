@@ -1,0 +1,38 @@
+baseURL = "https://blog.penguwin.eu/"
+title = "penguwin"
+languagecode = "en"
+author = "Nicolas Martin"
+copyright = "Copyright © 2019-2020" #supports html markup
+paginate = 3
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+#googleAnalytics = "UA-123-45"
+# disqusShortname = "yourdiscussshortname"
+theme = "monopriv"
+enableEmoji = true
+summaryLength = 20
+
+[params]
+about = "A privacy focused minimal bootstrap theme"
+github = "https://github.com/penguwin"
+gitlab = "https://gitlab.com/penguwin"
+linkedin = "https://www.linkedin.com/in/nicolas-martin-8964141b0/"
+email = "penguwin@penguwin.eu"
+# site meta description
+metadesc = "A simple privacy oriented bootstrap hugo blog"
+# site meta keywords
+metakeys = "hugo, simple, minimal, bootstrap, blog"
+# enable/disable disqus comments
+disqus = false
+# enable/disable google analytics
+analytics = false
+
+# [params.search] # Site search powered by DuckDuckGo
+# enabled = true
+# placeholder="Site Search"
+
+[params.hero]
+enabled = true
+img = "img/avatar.jpg"
