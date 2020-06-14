@@ -18,7 +18,7 @@ summaryLength = 20
 about = "A privacy focused minimal bootstrap theme"
 github = "https://github.com/penguwin"
 gitlab = "https://gitlab.com/penguwin"
-# linkedin = "https://www.linkedin.com/in/nicolas-martin-8964141b0/"
+linkedin = "https://www.linkedin.com/in/nicolas-martin-8964141b0/"
 email = "penguwin@penguwin.eu"
 # site meta description
 metadesc = "A simple privacy oriented bootstrap hugo blog"
