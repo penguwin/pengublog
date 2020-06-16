@@ -60,7 +60,7 @@ hugo new site pengublog
 Following message should be printed out after creation:
 
 ```text
-Congratulations! Your new Hugo site is created in /home/penguwin/Nextcloud/projects/pengublog.
+Congratulations! Your new Hugo site is created in /home/penguwin/pengublog.
 
 Just a few more steps and you're ready to go:
 
@@ -95,7 +95,7 @@ git submodule add https://github.com/lambdafu/hugo-finite themes/finite
 ```
 
 ```text
-Initialized empty Git repository in /home/penguwin/Nextcloud/projects/pengublog/.git/
+Initialized empty Git repository in /home/penguwin/pengublog/.git/
 ```
 
 You'll now be able to find the designs in the `/themes` folder. To
@@ -119,7 +119,7 @@ hugo new post/my-first-post.md
 ```
 
 ```text
-/home/penguwin/Nextcloud/projects/pengublog/content/posts/my-first-post.md created
+/home/penguwin/pengublog/content/posts/my-first-post.md created
 ```
 
 Now you can edit the markdown files content laying in `content/post/` as
@@ -152,8 +152,8 @@ Building sites …
   Cleaned          |   0
 
 Total in 26 ms
-Watching for changes in /home/penguwin/Nextcloud/projects/pengublog/{content,data,layouts,static,themes}
-Watching for config changes in /home/penguwin/Nextcloud/projects/pengublog/config.toml
+Watching for changes in /home/penguwin/pengublog/{content,data,layouts,static,themes}
+Watching for config changes in /home/penguwin/pengublog/config.toml
 Environment: "development"
 Serving pages from memory
 Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
