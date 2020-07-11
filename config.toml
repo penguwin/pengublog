@@ -17,8 +17,6 @@ summaryLength = 20
 [params]
 about = "Failure is not an Option<T> its a Result<T, E>"
 github = "https://github.com/penguwin"
-gitlab = "https://gitlab.com/penguwin"
-linkedin = "https://www.linkedin.com/in/nicolas-martin-8964141b0/"
 email = "penguwin@penguwin.eu"
 # site meta description
 metadesc = "yet another personal blog"
